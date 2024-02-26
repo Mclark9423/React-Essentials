@@ -1,11 +1,11 @@
 {
-  "homepage":"https://mclark9423.github.io/React-Essentials",
+  "homepage": "https://mclark9423.github.io/React-Essentials",
   "name": "react-essentials-start",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run dev",
-    "deploy": "gh-pages -d dev",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },
